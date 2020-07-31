@@ -86,7 +86,7 @@ dummy_test_y = truth["Survived"]
 print("Test Set Performance")
 print(evaluate(dummy_clf, dummy_test_x, dummy_test_y))
 
-printAge","Sexy,"ou do better than a dummy classifier?")
+print ("Can you do better than a dummy classifier?")
 
 # %%Solution to this classification problem
 
@@ -127,3 +127,5 @@ test_x = ct.transform(test_x)
 
 print("Test Set Performance")
 print(evaluate(clf, test_x, test_y))
+
+# %%
